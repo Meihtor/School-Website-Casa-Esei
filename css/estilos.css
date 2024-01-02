@@ -1,0 +1,67 @@
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+.colabo{
+    margin-top: 5rem;
+  }
+  
+
+
+
+  
+  .boton{
+    display: inline-block;
+      padding: 10px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #2fb4cc;
+      border: 1px solid #2fb4cc;
+      border-radius: 4px;
+      transition: all 400ms ease;
+      margin-bottom: 5px;
+    background-color: #fff;
+  }
+  
+  .boton:hover{
+    background: #2fb4cc;
+      color: #fff;
+  }
+
+
+
+  embed{
+    margin: 5rem auto 0 auto;
+    display: flex;
+    width: 80%;
+    height: 800px;
+  }
+
+  @media (min-width: 768px){
+      embed{
+        width: 50%;
+      }
+  }
+
+
+  .anuncio{
+    margin-top: 10rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+
+  .contenido-anuncio{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenido-anuncio img{
+    border: 1px solid #000000;
+    width: 350px;
+    
+  }
+
+  .texto{
+    padding-top: 2rem;
+  }
